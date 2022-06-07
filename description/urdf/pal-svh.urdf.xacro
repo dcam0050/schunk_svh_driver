@@ -29,32 +29,32 @@
     </link>
 
     <link name="${name}_d">
-      <!-- <visual> -->
-      <!-- 	<geometry> -->
-      <!-- 	  <cylinder length="0.110" radius="${cyl_radius}" /> -->
-      <!-- 	</geometry> -->
-      <!-- 	<material name="${name}_green" /> -->
-      <!-- </visual> -->
+      <visual>
+       	<geometry>
+       	  <cylinder length="0.110" radius="${cyl_radius}" />
+      	</geometry> -->
+      < 	<material name="${name}_green" />
+       </visual>
     </link>
 
     <link name="${name}_h">
-      <!-- <visual> -->
-      <!-- 	<origin rpy="0 1.571 0" xyz="${side*(-0.0125)} 0 0.0825" /> -->
-      <!-- 	<geometry> -->
-      <!-- 	  <cylinder length="0.025" radius="${cyl_radius}" /> -->
-      <!-- 	</geometry> -->
-      <!-- 	<material name="${name}_green" /> -->
-      <!-- </visual> -->
+      <visual>
+       	<origin rpy="0 1.571 0" xyz="${side*(-0.0125)} 0 0.0825" />
+       	<geometry>
+       	  <cylinder length="0.025" radius="${cyl_radius}" />
+       	</geometry>
+       	<material name="${name}_green" />
+       </visual>
     </link>
 
     <link name="${name}_d2">
-      <!-- <visual> -->
-      <!-- 	<origin rpy="0 0 0" xyz="${side*(-0.025)} 0 0.09625" /> -->
-      <!-- 	<geometry> -->
-      <!-- 	  <cylinder length="0.0275" radius="${cyl_radius}" /> -->
-      <!-- 	</geometry> -->
-      <!-- 	<material name="${name}_green" /> -->
-      <!-- </visual> -->
+      <visual>
+      	<origin rpy="0 0 0" xyz="${side*(-0.025)} 0 0.09625" />
+       	<geometry>
+      	  <cylinder length="0.0275" radius="${cyl_radius}" />
+      	</geometry>
+      	<material name="${name}_green" />
+      </visual>
     </link>
 
     <!-- LENGTH NOT FOUND IN DATASHEET! GUESSED!!! -->
@@ -91,13 +91,13 @@
 
     <!-- LENGTH NOT FOUND IN DATASHEET! GUESSED!!! -->
     <link name="${name}_e3">
-      <!-- <visual> -->
-      <!-- 	<origin rpy="0 0 0" xyz="${side*(0.0175)} 0 0.015" /> -->
-      <!-- 	<geometry> -->
-      <!-- 	  <cylinder length="0.03" radius="${cyl_radius}" /> -->
-      <!-- 	</geometry> -->
-      <!-- 	<material name="green" /> -->
-      <!-- </visual> -->
+      <visual>
+       	<origin rpy="0 0 0" xyz="${side*(0.0175)} 0 0.015" />
+       	<geometry> 
+       	  <cylinder length="0.03" radius="${cyl_radius}" />
+       	</geometry>
+       	<material name="green" />
+     </visual>
     </link>
 
     <link name="${name}_e">
@@ -105,24 +105,24 @@
 
     <!-- LENGTH NOT FOUND IN DATASHEET! GUESSED, BUT POSITION CALCULATED: E4 = D-G-F!!! -->
     <link name="${name}_e4">
-      <!-- <visual> -->
-      <!-- 	<origin rpy="0 0 0" xyz="${side*(0.02825)} 0 0.043" /> -->
-      <!-- 	<geometry> -->
-      <!-- 	  <cylinder length="0.026" radius="${cyl_radius}" /> -->
-      <!-- 	</geometry> -->
-      <!-- 	<material name="green" /> -->
-      <!-- </visual> -->
+      <visual>
+      	<origin rpy="0 0 0" xyz="${side*(0.02825)} 0 0.043" />
+       	<geometry>
+       	  <cylinder length="0.026" radius="${cyl_radius}" />
+       	</geometry>
+       	<material name="green" />
+       </visual>
     </link>
 
     <!-- LENGTH NOT FOUND IN DATASHEET! GUESSED, BUT POSITION CALCULATED: E5 = D-G!!! -->
     <link name="${name}_e5">
-      <!-- <visual> -->
-      <!-- 	<origin rpy="0 0 0" xyz="${side*(0.00675)} 0 0.04775" /> -->
-      <!-- 	<geometry> -->
-      <!-- 	  <cylinder length="0.0355" radius="${cyl_radius}" /> -->
-      <!-- 	</geometry> -->
-      <!-- 	<material name="green" /> -->
-      <!-- </visual> -->
+       <visual>
+       	<origin rpy="0 0 0" xyz="${side*(0.00675)} 0 0.04775" />
+       	<geometry>
+       	  <cylinder length="0.0355" radius="${cyl_radius}" />
+      	</geometry>
+      	<material name="green" />
+      </visual>
     </link>
 
 
